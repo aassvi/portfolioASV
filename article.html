@@ -1,17 +1,20 @@
 <!DOCTYPE HTML>
+<html lang="fr">
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+
 	<head>
-		<title>Animations</title>
+		<title>Article</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
           <link rel="stylesheet" href="assets/css/App.css" />
+          <link rel="stylesheet" href="assets/css/apitest.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 	</head>
 	<body class="is-preload">
 
@@ -35,7 +38,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="animations.html">Animations</a></li>
+							<li class="active"><a href="apitest.html">APP JavaScript/API</a></li>
 							
 						</ul>
 						<ul class="icons">
@@ -47,36 +50,17 @@
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Featured Post 
-						<article class="post featured">
-							<header class="major">
-								
-								<h2><a href="#"> A propos de moi </a></h2>
-								<p> <br />
-								.</p>
-							</header>
-							<a href="#" class="image main"><img src="images/personne.png" alt="" /></a>
-		
-							<ul class="actions special">
-								<li><a href="moi.html" class="button large">Savoir plus</a></li>
-							</ul>
-						</article>-->
-							<article class="post featured">
-								
-								
-                                        <img src='./images/reactlogo.svg'class='reactlogo'alt="logo" />
-								
-								
-							</article>
-
+					
+						<section class="posts">
+							
+							<h2>Article</h2>
+                                   <div id="container"></div>
+                                   <button onclick="viewCart()">Voir la liste d'articles </button>
+                                   <script src="assets/js/article.js"></script>
+                                 
 						<!-- Posts -->
-							<section class="posts">
-															
-								
-							</section>
-
-						
+							
+					</section>
 
 					</div>
 
@@ -86,7 +70,7 @@
 							
 						</section>
 						
-						</section>
+						
 					</footer>
 
 				<!-- Copyright -->
@@ -104,6 +88,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+               
 
 	</body>
 </html>

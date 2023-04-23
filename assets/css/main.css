@@ -3968,7 +3968,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #717981;
+			color:black;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -3981,8 +3981,13 @@ input, select, textarea {
 			color: #717981;
 		}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+		#footer h1, #footer h2, #footer h4, #footer h5, #footer h6 {
 			color: #717981;
+		}
+		#footer p{
+			color:black;
+
+			
 		}
 
 		#footer blockquote {
