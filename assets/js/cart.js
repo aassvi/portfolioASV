@@ -1,4 +1,4 @@
-const cart = document.getElementById('cart');
+                                   const cart = document.getElementById('cart');
                                    const cartItems = JSON.parse(localStorage.getItem('cartItems'));
 
                                    // Fonction pour afficher les articles du panier
