@@ -58,8 +58,9 @@
        
      }
      .post:hover {
-  transform: translateX(10px); /* Définir la translation de 10px sur l'axe X lorsque l'élément est survolé */
-}
+          transform: translateX(10px); /* Définir la translation de 10px sur l'axe X lorsque l'élément est survolé */
+          background-color: rgb(234, 214, 188);
+     }
      .post p{
           font-size: 12px;
      }
