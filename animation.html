@@ -6,11 +6,19 @@
 -->
 <html>
 	<head>
-		<title>cv</title>
+		<title>animation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/apitest.css" />
+		<link rel="stylesheet" href="assets/css/animations.css" />
+		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
 	</head>
 	<body class="is-preload">
 
@@ -34,7 +42,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="moi.html">A propos de moi</a></li>
+							<li class="active"><a href="animation.html">Animation </a></li>
 							
 						</ul>
 						<ul class="icons">
@@ -46,37 +54,48 @@
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Featured Post 
 						<article class="post featured">
-							<header class="major">
-								
-								<h2><a href="#"> A propos de moi </a></h2>
-								<p> <br />
-								.</p>
-							</header>
-							<a href="#" class="image main"><img src="images/personne.png" alt="" /></a>
-		
-							<ul class="actions special">
-								<li><a href="moi.html" class="button large">Savoir plus</a></li>
-							</ul>
-						</article>-->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="#"> Mon parcours </a></h2>
-									<p><br />
-									.</p>
-								</header>
-								<embed src="#" type="application/pdf" width="100%" height="600px" />
+							
+							<h2>Bibliotheques d'animation</h2>
+							<div id="my-element">Cliquez pour animer !</div>
+							<div class="containerBibAnim">
 
+							
+							
+
+								<div id="box" >
+									<button id="btn"><p>Animer avec GSAP.js</p></button>
+								</div>
+
+								<div id="animated-box" > 
+									<button id="animate-btn"><p>Animer avec Anime.js</p></button></div>
+
+								<div id="box2" >
+									<button id="animate-btn2"><p>Animer avec jQuery</p></button>
 								
+								</div>
 								
+							</div>
+							
+							
+							</article>
+							<article class="post featured">	
+								<h2>Flex box </h2>
+								<div class="container">
+								     <div class="box3" >mer</div>
+									<div class="box3" >fleur</div>
+									<div class="box3" >foret</div>
+									<div class="box3" >herbes</div>
+									<div class="box3" >coci</div>
+									<div class="box3" >flou</div>
+								</div>	   
+							</article>
+							<article>
+
 							</article>
 
 						<!-- Posts -->
 							<section class="posts">
-															
 								
 							</section>
 
@@ -108,6 +127,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/animations.js"></script>
 
 	</body>
 </html>
