@@ -8,7 +8,8 @@
      justify-content: space-between;
      align-items: center;
      height: 100%;
-     background-image: url('/assets/images/abs.jpg');
+     background-image: url('https://aassvi.github.io/portfolioASV/assets/images/fleur.png');
+     
 }
 #box{
   width: 140px; 
