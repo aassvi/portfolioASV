@@ -8,7 +8,7 @@
      justify-content: space-between;
      align-items: center;
      height: 100%;
-     background-image: url('https://aassvi.github.io/portfolioASV/assets/images/fleur.png');
+     background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
      
 }
 #box{
@@ -16,14 +16,14 @@
   height: 140px;
   border: 1px solid white;
   box-shadow: 2px 2px 5px white;
-  background-image: url('/assets/images/abs.jpg');
+  background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
   overflow: hidden; /* ajouter cette ligne pour éviter le débordement */
 }
 #btn {
    width: 100%;
    height: 100%;
    box-shadow: 2px 2px 5px white;
-   background-image: url('/assets/images/abs.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
    display: flex;
    justify-content: center; /* centrer horizontalement */
    align-items: center;
@@ -47,7 +47,7 @@
    width: 100%;
    height: 100%;
    box-shadow: 2px 2px 5px white;
-   background-image: url('/assets/images/abs.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
    display: flex;
    justify-content: center; /* centrer horizontalement */
    align-items: center;
@@ -66,7 +66,7 @@
    width: 140px;
    height: 140px;
    border: 1px solid white;
-   background-image: url('/assets/images/abs.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
    box-shadow: 2px 2px 5px white;
  }
  
@@ -74,7 +74,7 @@
    width: 100%;
    height: 100%;
    box-shadow: 2px 2px 5px white;
-   background-image: url('/assets/images/abs.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/abs.jpg');
    display: flex;
    justify-content: center; /* centrer horizontalement */
    align-items: center;
@@ -123,32 +123,32 @@
    cursor: pointer;
  }
  .box3:nth-child(1){
-   background-image: url('/assets/images/mer.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/mer.jpg');
    background-position: center center;
 
  }
  .box3:nth-child(2){
-   background-image: url('/assets/images/fleur.png');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/fleur.png');
    background-position: center center;
    
  }
  .box3:nth-child(3){
-   background-image: url('/assets/images/foret.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/foret.jpg');
    background-position: center center;
 
  }
  .box3:nth-child(4){
-   background-image: url('/assets/images/herbe.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/herbe.jpg');
    
  }
  .box3:nth-child(5){
-   background-image: url('/assets/images/coci.jpg') ;
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/coci.jpg') ;
    background-position: 10px 20px;
    background-position: center center;
 
  }
  .box3:nth-child(6){
-   background-image: url('/assets/images/flou.jpg');
+   background-image: url('https://aassvi.github.io/portfolioASV/assets/images/flou.jpg');
    
  }
 
