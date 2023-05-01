@@ -122,7 +122,7 @@
    cursor: pointer;
  }
  .box3:nth-child(1){
-   background-image: url('/images/mer.jpg');
+   background-image: url('mer.jpg');
    background-position: center center;
 
  }
