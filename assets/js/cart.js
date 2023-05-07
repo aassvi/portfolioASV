@@ -1,5 +1,6 @@
                                    const cart = document.getElementById('cart');
                                    const cartItems = JSON.parse(localStorage.getItem('cartItems'));
+                                   console.log(cartItems);
 
                                    // Fonction pour afficher les articles du panier
                                    function displayCart() {
@@ -12,12 +13,28 @@
                                              itemElement.classList.add('item');
                                              itemElement.innerHTML = `
                                              <h3>Article ${item.id}</h3>
+                                             <h4>article ${item.title} </h4>
                                              <p>Quantité : ${item.quantity}</p>
+                                              <button onclick="removeFromCart(${item.id})">Supprimer</button>
                                              `;
                                              cart.appendChild(itemElement);
                                         });
                                    }
-
+                                   function removeFromCart(articleId) {
+                                        // Trouver l'index de l'article à supprimer
+                                        const itemIndex = cartItems.findIndex(item => item.id === articleId);
+                                        if (itemIndex !== -1) {
+                                            // Supprimer l'article du tableau
+                                            cartItems.splice(itemIndex, 1);
+                                    
+                                            // Mettre à jour le panier dans le stockage local
+                                            localStorage.setItem('cartItems', JSON.stringify(cartItems));
+                                    
+                                            // Réafficher les articles du panier
+                                            displayCart();
+                                        }
+                                    }
+                                    
                                    // Vérifier si le panier est vide
                                    if (cartItems && cartItems.length > 0) {
                                         displayCart();
